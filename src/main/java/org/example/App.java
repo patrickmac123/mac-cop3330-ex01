@@ -13,6 +13,8 @@ public class App
         System.out.println( "What is your name?" );
         String name = x.nextLine();
 
-        System.out.println("Hello, "+name+", nice to meet you!");
+        String s = "Hello, "+name+", nice to meet you!";
+
+        System.out.println(s);
     }
 }
