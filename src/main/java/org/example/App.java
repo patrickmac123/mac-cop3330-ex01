@@ -12,6 +12,7 @@ public class App
         Scanner x = new Scanner(System.in);
         System.out.println( "What is your name?" );
         String name = x.nextLine();
+
         System.out.println("Hello, "+name+", nice to meet you!");
     }
 }
